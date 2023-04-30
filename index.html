@@ -46,14 +46,14 @@
             </div>
             <div class="row">
                 <div class="controls">
-                    <button class="control-icon attack"  onclick="new Audio('../sounds/sword_slash.mp3').play()" @click="attackDragon">
+                    <button class="control-icon attack"  onclick="new Audio('sounds/sword_slash.mp3').play()" @click="attackDragon">
                         <img src="img/attack_icon.svg" alt="attack">
                     </button>
-                    <button class="control-icon " onclick="new Audio('../sounds/special_attack.mp3').play()" @click="specialAttack" :disabled="numOfSpecialAttack === 0">
+                    <button class="control-icon " onclick="new Audio('sounds/special_attack.mp3').play()" @click="specialAttack" :disabled="numOfSpecialAttack === 0">
                         <img src="img/special_attack.svg" alt="special_attack">
                         <span class="num-of-attempt"></span>
                     </button>
-                    <button class="control-icon" onclick="new Audio('../sounds/heal_effect.mp3').play()" @click="heal" :disable="numOfHeal === 0">
+                    <button class="control-icon" onclick="new Audio('sounds/heal_effect.mp3').play()" @click="heal" :disable="numOfHeal === 0">
                      
                         <img src="img/heal_icon.png" alt="heal">
                         <span class="num-of-attempt"></span>
