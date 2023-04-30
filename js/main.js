@@ -65,7 +65,7 @@
         },
     },
     methods: {
-        startFight() {
+     startFight() {
            this.warriorHealth= 100;
            this.dragonHealth= 100;
            this.numOfSpecialAttack= 3;
@@ -139,3 +139,7 @@
  })
 
  app.mount('#game')
+
+ function myfunction() {
+    document.getElementById('fun').style.visibility='hidden'
+ }
