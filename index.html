@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <p class="text-center">Warrior</p>
-                    <div onmouseover="new Audio('../sounds/dragon_breath.mp3').play()" class="img-container">
+                    <div class="img-container">
                         <img src="gifs/warrior1.gif" alt="Warrior">
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <p class="text-center">Dragon</p>
-                    <div onmouseover="new Audio('../sounds/dragon_breath.mp3').play()" class="img-container">
+                    <div class="img-container">
                         <img src="gifs/dragon1.gif" alt="dragon">
                     </div>
                 </div>
@@ -91,13 +91,13 @@
                     <h4 v-if="winner === 'dragon'">You lose!🤐😡😡</h4>
                     <h4 v-else-if="winner === 'warrior'">You win!😁😁😏</h4>
                     <h4 v-else-if="winner === 'draw'">It's draw🙅🙅</h4>
-                    <button  class="btn start-btn mt-4" @click="startFight">Battle Again</button>
+                    <button onclick="new Audio('sounds/dragon_breath.mp3').play()"  class="btn start-btn mt-4" @click="startFight">Battle Again</button>
                 </div>
             </div>
         </div>
     </div><br><br>
     <footer class="center">
-        <a href="https://github.com/Cyiza06"> copyright &copy; 2023 DopeCode🫅🫅</a>
+        <a href="https://github.com/Cyiza06"> copyright &circleddash; 2023 DopeCode🫅🫅</a>
     </footer>
     
     <script src="js/main.js"></script>
